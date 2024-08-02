@@ -1,0 +1,9 @@
+CREATE schema myNewDB;
+CREATE TABLE Users
+(
+    UserID INTEGER PRIMARY KEY AUTO_INCREMENT,
+    LastName VARCHAR(50) NOT NULL, 
+    FirstName VARCHAR(50) NOT NULL, 
+    Address VARCHAR(50) NOT NULL, 
+    City VARCHAR(50) NOT NULL
+);
